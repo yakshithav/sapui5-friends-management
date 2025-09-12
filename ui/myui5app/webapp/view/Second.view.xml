@@ -1,0 +1,14 @@
+<mvc:View
+  controllerName="myui5app.controller.Second"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m">
+
+  <Page title="Friends List">
+   <Button text="Add Friend" icon="sap-icon://add" press=".onAddFriend"/>
+   <Button text ="Show all FriendsList" press = ".onShowFriendsList"/>
+    <content>
+      <VBox id="friendsVBox" class="sapUiSmallMargin"/>
+    </content>
+    
+  </Page>
+</mvc:View>

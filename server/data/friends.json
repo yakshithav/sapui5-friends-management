@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Arbin",
+    "city": "Bangalore",
+    "education": "MCA"
+  },
+  {
+    "name": "Meghana",
+    "city": "Tiptur",
+    "education": "MBA"
+  },
+  {
+    "name": "Nish",
+    "city": "Mangalore",
+    "education": "MSC"
+  },
+  {
+    "name": "Harshith",
+    "education": "BBM",
+    "city": "Tiptur"
+  },
+  {
+    "name": "Sehla",
+    "education": "BCA",
+    "city": "Pune"
+  },
+  {
+    "name": "Yakshitha",
+    "education": "BE",
+    "city": "Tumkur"
+  },
+  {
+    "name": "Manisha",
+    "education": "BBM",
+    "city": "Chennai"
+  }
+]

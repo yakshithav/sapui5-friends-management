@@ -1,0 +1,27 @@
+{
+  "name": "myui5app",
+  "version": "1.0.0",
+  "description": "UI5 application with Express backend",
+  "scripts": {
+    "start": "fiori run --open index.html",
+    "build": "ui5 build --config=ui5.yaml --clean-dest --dest ../dist/myui5app",
+    "ui5lint": "ui5lint",
+    "lint": "eslint ./",
+    "qunit": "fiori run --open test/unitTests.qunit.html",
+    "opa5": "fiori run --open test/opaTests.qunit.html",
+    "wdi5": "wdio run ./webapp/test/e2e/\\wdio.conf.js",
+    "server": "node server/server.js",
+    "dev": "concurrently \"npm run server\" \"npm run start\"",
+    "prod": "npm run build && npm run server"
+  },
+  "dependencies": {
+    "@sap/ux-ui5-tooling": "^1.8.5",
+    "concurrently": "^8.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^3.0.0",
+    "eslint": "^8.56.0"
+  }
+}

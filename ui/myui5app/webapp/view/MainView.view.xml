@@ -1,0 +1,18 @@
+<mvc:View
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+  controllerName="myui5app.controller.MainView">
+
+  <Page title="Login">
+    <content>
+      <VBox>
+      <Label text = "UserName"/>
+        <Input  value="{loginModel>/username}" placeholder="Enter Username"/>
+        <Label text = "Password"/>
+        <Input  value="{loginModel>/password}" placeholder="Enter Password" type="Password"/>
+        <Button text="Login" press=".onLogin" />
+      </VBox>
+    </content>
+  </Page>
+</mvc:View>
+
